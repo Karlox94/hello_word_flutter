@@ -38,6 +38,19 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
+  assets:
+    - assets/images/space.jpg
+    - assets/images/autumn.jpg
+    - assets/images/summer.jpg
+    - assets/images/winter.jpg
+    - assets/images/tree.jpg
+    - assets/brand/isotipo.svg
+    - assets/brand/isotipo-blanco.svg
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: fonts/Lato-Regular.ttf
+
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
