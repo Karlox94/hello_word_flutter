@@ -39,13 +39,7 @@ dev_dependencies:
 # The following section is specific to Flutter.
 flutter:
   assets:
-    - assets/images/space.jpg
-    - assets/images/autumn.jpg
-    - assets/images/summer.jpg
-    - assets/images/winter.jpg
-    - assets/images/tree.jpg
-    - assets/brand/isotipo.svg
-    - assets/brand/isotipo-blanco.svg
+    - assets/images/
   fonts:
     - family: Lato
       fonts:
