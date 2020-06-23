@@ -8,13 +8,14 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: OurAppBar(title: 'Valhalla', iconAppBar: Icon(Icons.add_alert)),
-      body: Column(
-        children: [
-          OurHorizontalListView(),
-          OurListView()
-        ]
-      ),
+      appBar: OurAppBar(title: 'My App', iconAppBar: Icon(Icons.add_alert)),
+      body: Column(children: [
+        OurHorizontalListView(),
+        Expanded(
+          child: OurListView(),
+        )
+        // OurListView()
+      ]),
       bottomNavigationBar: OurFooter(
         iconRight: Icon(Icons.account_circle),
         iconLeft: Icon(Icons.home),

@@ -15,7 +15,7 @@ class OurFooter extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 100.0,
+      height: 60.0,
       child: BottomNavigationBar(
         backgroundColor: SCALE_03,
         showSelectedLabels: false,
