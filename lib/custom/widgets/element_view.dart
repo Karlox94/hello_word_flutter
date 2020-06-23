@@ -7,7 +7,8 @@ class ElementView extends StatelessWidget {
   final String pathImage;
   final String title;
   final String description;
-  ElementView({Key key, this.pathImage, this.title, this.description}):super(key:key);
+  ElementView({Key key, this.pathImage, this.title, this.description})
+      : super(key: key);
   @override
   Widget build(BuildContext context) {
     final element = Container(
@@ -17,12 +18,18 @@ class ElementView extends StatelessWidget {
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
-          OurImage(pathImage: this.pathImage, widthImage: 150.0, heightImage: 150.0),
-          Column (
+          OurImage(
+              pathImage: this.pathImage, widthImage: 150.0, heightImage: 150.0),
+          Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              H2(text: this.title),
-              NormalText(text: this.description)
+              Container(
+                  child: Column(children: [
+                H2(text: this.title),
+                NormalText(text: this.description)
+              ]),
+              padding: EdgeInsets.only(top: 10.0, right: 20.0),
+              )
             ],
           )
         ],
