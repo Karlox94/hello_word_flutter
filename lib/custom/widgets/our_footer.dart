@@ -17,7 +17,7 @@ class OurFooter extends StatelessWidget {
     return SizedBox(
       height: 60.0,
       child: BottomNavigationBar(
-        backgroundColor: SCALE_03,
+        backgroundColor: SCALE_05,
         showSelectedLabels: false,
         showUnselectedLabels: false,
         items: <BottomNavigationBarItem>[

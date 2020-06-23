@@ -1,7 +1,7 @@
 const data = [
-  {'pathImage':"assets/images/halo.jpg",'title':"Master chiefd", 'description':"Halo game"},
-  {'pathImage':"assets/images/iroman.png",'title':"Iroman", 'description':"Superhero"},
-  {'pathImage':"assets/images/jinx.jpg",'title':"Jinx", 'description':"LoL champion"},
-  {'pathImage':"assets/images/mario.png",'title':"Mario", 'description':"Mario game"},
-  {'pathImage':"assets/images/tesla.jpg",'title':"Nikola Tesla", 'description':"Inventor"}
+  {'pathImage':"assets/images/last.png",'title':"The last of us 2", 'description':"Part 2"},
+  {'pathImage':"assets/images/crash.png",'title':"Crash", 'description':"Crash Bandicoot Trilogy"},
+  {'pathImage':"assets/images/nfs.png",'title':"Need for speed", 'description':"Need for speed"},
+  {'pathImage':"assets/images/ori.png",'title':"Ori and the will of the wisps", 'description':"Ori and the will of the wisps"},
+  {'pathImage':"assets/images/tomb.png",'title':"Tomb Raider", 'description':"Lara Croft Adventures"}
 ];

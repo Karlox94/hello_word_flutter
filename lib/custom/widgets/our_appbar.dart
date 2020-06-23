@@ -1,5 +1,5 @@
 import 'package:helloword/custom/widgets/fundation/colors.dart';
-import 'package:helloword/custom/widgets/fundation/ourText.dart';
+// import 'package:helloword/custom/widgets/fundation/ourText.dart';
 import 'package:flutter/material.dart';
 
 class OurAppBar extends StatelessWidget with PreferredSizeWidget {

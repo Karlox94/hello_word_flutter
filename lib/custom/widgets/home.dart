@@ -1,3 +1,4 @@
+import 'package:helloword/custom/widgets/fundation/ourText.dart';
 import 'package:helloword/custom/widgets/horizontal_list_view.dart';
 import 'package:helloword/custom/widgets/our_footer.dart';
 import 'package:helloword/custom/widgets/our_appbar.dart';
@@ -10,15 +11,25 @@ class Home extends StatelessWidget {
     return Scaffold(
       appBar: OurAppBar(title: 'My App', iconAppBar: Icon(Icons.add_alert)),
       body: Column(children: [
+        Container(
+            child: Text("Nuevos juegos",
+                style: TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold),
+                textAlign: TextAlign.justify),
+            margin: EdgeInsets.symmetric(vertical: 15, horizontal: 0)),
         OurHorizontalListView(),
+        Container(
+            child: Text("Más jugados",
+                style: TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold),
+                textAlign: TextAlign.justify),
+            margin: EdgeInsets.symmetric(vertical: 15, horizontal: 0)),
         Expanded(
           child: OurListView(),
         )
         // OurListView()
       ]),
       bottomNavigationBar: OurFooter(
-        iconRight: Icon(Icons.account_circle),
-        iconLeft: Icon(Icons.home),
+        iconLeft: Icon(Icons.gamepad),
+        iconRight: Icon(Icons.shopping_cart),
       ),
     );
   }

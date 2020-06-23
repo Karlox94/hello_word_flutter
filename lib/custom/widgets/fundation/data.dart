@@ -1,7 +1,8 @@
 const jsonData = [
-  {'pathImage':"assets/images/summer.jpg",'title':"Summer", 'description':"Well Done Valkiria"},
-  {'pathImage':"assets/images/tree.jpg",'title':"Tree", 'description':"Well Done Valkiria"},
-  // {'pathImage':"assets/images/space.jpg",'title':"space", 'description':"Well Done Valkiria"},
-  {'pathImage':"assets/images/autumn.jpg",'title':"Autumn", 'description':"Well Done  Valkiria"},
-  {'pathImage':"assets/images/winter.jpg",'title':"winter", 'description':"Well Done Valkiria"}
+  {'pathImage':"assets/images/pubg.png",'title':"PUBG", 'description':"Playerunknown’s Battlegrounds"},
+  {'pathImage':"assets/images/gow4.jpeg",'title':"Gear of War", 'description':"The Coalition"},
+  {'pathImage':"assets/images/codmw.png",'title':"Cod MW", 'description':"Call of Dutty Modern Warfare"},
+  {'pathImage':"assets/images/halo5.png",'title':"Halo 5", 'description':"Microsoft game"},
+  {'pathImage':"assets/images/apex.png",'title':"Apex legends", 'description':"FPS video game"},
+  {'pathImage':"assets/images/fortnite.png",'title':"Fortnite", 'description':"Minecraft in 4k"},
 ];

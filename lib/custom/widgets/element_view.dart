@@ -12,7 +12,11 @@ class ElementView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final element = Container(
-      decoration: BoxDecoration(color: SCALE_02),
+      decoration: BoxDecoration(
+        color: SCALE_02,
+        borderRadius: BorderRadius.all(Radius.circular(8.0)),
+        border: Border.all(color: SCALE_01, width: 1, style: BorderStyle.solid)
+        ),
       margin: EdgeInsets.all(10.0),
       height: 150.0,
       child: Row(
