@@ -1,4 +1,4 @@
-import 'package:helloword/custom/widgets/fundation/ourText.dart';
+// import 'package:helloword/custom/widgets/fundation/ourText.dart';
 import 'package:helloword/custom/widgets/horizontal_list_view.dart';
 import 'package:helloword/custom/widgets/our_footer.dart';
 import 'package:helloword/custom/widgets/our_appbar.dart';
