@@ -9,7 +9,7 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: OurAppBar(title: 'My App', iconAppBar: Icon(Icons.add_alert)),
+      appBar: OurAppBar(title: 'GameShop94', iconAppBar: Icon(Icons.add_alert)),
       body: Column(children: [
         Container(
             child: Text("Nuevos juegos",

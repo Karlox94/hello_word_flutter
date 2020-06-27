@@ -1,6 +1,7 @@
 import 'package:helloword/custom/widgets/fundation/colors.dart';
-// import 'package:helloword/custom/widgets/fundation/ourText.dart';
 import 'package:flutter/material.dart';
+
+import 'fundation/ourText.dart';
 
 class OurAppBar extends StatelessWidget with PreferredSizeWidget {
   final String title;
@@ -16,8 +17,17 @@ class OurAppBar extends StatelessWidget with PreferredSizeWidget {
   Widget build(BuildContext context) {
     return AppBar(
       title: Center(
+        child: Row(
+          children: <Widget>[
+            Icon(Icons.videogame_asset, size: 48.0,),
+            Container(
+              child: H1(text: this.title),
+              margin: EdgeInsets.only(left: 15.0),
+            )
+          ],
+        )
         // child: H1(text: this.title),
-        child: Icon(Icons.videogame_asset, size: 48.0,)
+        // child: Icon(Icons.videogame_asset, size: 48.0,)
       ),
       backgroundColor: STATUS_INFO,
       // actions: <Widget>[
